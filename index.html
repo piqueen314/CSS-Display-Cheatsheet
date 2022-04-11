@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gentium+Basic&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Display Cheatsheet</title>
+</head>
+<body>
+  <header>
+    <h1>CSS Property Display Cheatsheet </h1>
+  </header>
+  <article>
+    <h2>display</h2>
+  <p>The display CSS property sets whether an element is treated as a block 
+    or inline element and the layout used for its children, such as flow layout, 
+    grid or flex. Formally, the display property sets an element's inner and outer 
+    display types. The outer type sets an element's participation in flow layout; the 
+    inner type sets the layout of children content.
+  </p>
+  </article> 
+  
+  <div class="container1">
+    <table>
+      <thead>
+        <tr>
+          <th colspan="3"><h2>Outside Inside Grouped Values</h2></th>
+        </tr>
+        <tr>  
+          <th><h3>Single Value Syntax</h3></th>
+          <th><h3>Two Value Syntax</h3></th>
+          <th><h3>Description</h3></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>display: <span>block</span>;</td>
+          <td>display: <span>block flow</span>;</td>
+          <td class="description">Gives an element block  flow. Element starts on a new line and takes up the whole width.</td>
+        </tr>
+        <tr>
+          <td>display: <span>flow-root</span>;</td>
+          <td>display: <span>block flow-root</span>;</td>
+          <td class="description">Gives an element block flow. Establishes a new block formatting context containing the elements content.</td>
+        </tr>
+        <tr>
+          <td>display: <span>inline</span>;</td>
+          <td>display: <span>inline flow</span>;</td>
+          <td class="description">Gives an element inline flow. Any height and width properties will have no effect.</td>
+        </tr>
+        <tr>
+          <td>display: <span>inline-block</span>;</td>
+          <td>display: <span>inline flow-root</span>;</td>
+          <td class="description">Gives the element inline flow. The element can have height and width properties.</td>
+        </tr>
+        <tr>
+          <td>display: <span>flex</span>;</td>
+          <td>display: <span>block flex</span>;</td>
+          <td class="description">Gives the element block flow. The element’s content will be displayed using the flex box model.</td>
+        </tr>
+        <tr>
+          <td>display: <span>inline-flex</span>;</td>
+          <td>display: <span>inline flex</span>;</td>
+          <td class="description">Gives the element inline flow. The element’s content will be displayed using the flex box model.</td>
+        </tr>
+        <tr>
+          <td>display: <span>grid</span>;</td>
+          <td>display: <span>block grid</span>;</td>
+          <td class="description">Gives the element block flow. The element’s content will be displayed using the grid model.</td>
+        </tr>
+        <tr>
+          <td>display: <span>inline-grid</span>;</td>
+          <td>display: <span>inline grid</span>;</td>
+          <td class="description">Gives the element inline flow. The element’s content will be displayed using the grid model.</td>
+        </tr>
+
+      </tbody>
+      
+    </table>
+
+  </div>
+  <div class="container2">
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2"><h2>Box Generation</h2></th>
+        </tr>
+        <tr>  
+          <th><h3>Value</h3></th>
+          <th><h3>Description</h3></th>
+        </tr>
+      </thead>  
+      <tbody>
+        <tr>
+          <td>display: <span>none</span>;</td>
+          <td class="description">Turns off the display of an element so 
+            that it has no effect on layout (the document is rendered as though the element did not exist). </td>
+        </tr>
+        <tr>
+          <td>display: <span>contents</span>;</td>
+          <td class="description">Essentially makes the container disappear, making the child elements children 
+            of the element the next level up in the DOM.
+          </td>
+        </tr>
+
+      </tbody>
+
+    </table>
+  </div>
+
+</body>
+</html>

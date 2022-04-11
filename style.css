@@ -1,0 +1,58 @@
+body{
+    background-color: #F2F2F2;
+}
+header{
+    text-align: center;
+}
+h1, h2, h3{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+p, .description{
+    font-family: 'Gentium Basic', serif;
+    font-weight: 600;
+}
+td{
+    padding: 0.5%;
+}
+th{
+    padding: 0.3%;
+}
+article{
+    background-color: #CDBE78;
+    padding: 2%;
+    margin: 0% 15%;
+
+}
+td{
+    font-family: 'DM Mono', monospace;
+    font-weight: 600;
+    color:#066163;
+}
+span{
+    color: #CDBE78;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+table{
+    background-color: #383838;
+    margin:1%;
+    
+}
+thead{
+    color:#F2F2F2;
+}
+.description{
+    color: #F2F2F2;
+}
+.container1 td:nth-child(1) {
+    width: 20%;
+}
+.container1 td:nth-child(2) {
+    width: 25%;
+}
+.container2 td:nth-child(1){
+    width:20%;
+}
