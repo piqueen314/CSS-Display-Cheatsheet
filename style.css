@@ -22,6 +22,7 @@ article{
     background-color: #CDBE78;
     padding: 2%;
     margin: 0% 15%;
+    box-shadow: 10px 5px 5px black;
 
 }
 td{
@@ -39,7 +40,7 @@ div{
 table{
     background-color: #383838;
     margin:1%;
-    
+    box-shadow: 10px 5px 5px black;
 }
 thead{
     color:#F2F2F2;
